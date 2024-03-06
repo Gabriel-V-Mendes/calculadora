@@ -1,0 +1,82 @@
+@charset "utf=8";
+
+h1{
+    background-color: black;
+    color:rgb(103, 12, 12);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(55, 7, 7);
+}
+
+body{
+    background-image: url(https://rukminim2.flixcart.com/image/850/1000/l2z26q80/poster/8/v/t/medium-vagabond-manga-anime-series-hd-matte-finish-poster-original-image6xzbastfchk.jpeg?q=90&crop=false);
+    text-align: center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#calculator{
+    max-width: 360px;
+    background-image: url(https://pm1.aminoapps.com/6561/e28531c104f8d5a48d7677a24ed1dd33fba54af8_hq.jpg);
+    border-radius: 13px;
+    padding: 18px;
+    box-shadow:10px 5px 5px black;
+}
+
+#display{
+    width: 100%;
+    height: 60px;
+    font-size: 22px;
+    text-align: right;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 3px;
+    color:red ;
+    background-color: rgb(202, 192, 202);
+    box-shadow:10px 5px 5px black; 
+    border: none;
+    box-sizing: border-box;
+    border-radius: 13px;
+}
+
+button{
+    width: calc(25% - 12px);
+    height: 50px;
+    font-size: 22px;
+    margin: 10px 5px;
+    border: none;
+    float: left;
+    border-radius: 15px;
+    background: rgb(0,0,0);
+background: linear-gradient(86deg, rgba(0,0,0,1) 0%, rgba(153,153,153,1) 32%, rgba(131,139,141,1) 64%, rgba(38,48,51,1) 100%);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    color: rgb(242, 0, 0) ;
+    box-shadow: 10px 5px 5px black;
+}
+
+.operator{
+    color: rgb(66, 6, 123);
+    background-color:rgb(0, 0, 0) ;
+}
+
+#ac{
+    color:red;
+}
+
+.equal{
+    width: calc(50% - 12px);
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button:active{
+    transfora;
+    box-shadow:10px 5px 5px black;
+    font-size: 150%;
+}
