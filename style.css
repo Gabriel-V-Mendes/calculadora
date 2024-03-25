@@ -9,6 +9,8 @@ h1{
 
 body{
     background-image: url(https://rukminim2.flixcart.com/image/850/1000/l2z26q80/poster/8/v/t/medium-vagabond-manga-anime-series-hd-matte-finish-poster-original-image6xzbastfchk.jpeg?q=90&crop=false);
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
     margin: 0;
     display: flex;
